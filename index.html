@@ -2,6 +2,10 @@
 
 <head>
 
+<title>
+    Survey 
+</title>
+<script src="https://kit.fontawesome.com/600cc26551.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -26,7 +30,7 @@
             <input type="number" name="Years Coding" id="number" class="form-control" placeholder="Years Coding" min="0" max="99" required>
         </div>
         <!-- Dropdown label of the survey  -->
-        <div class="form-group">
+        <div class="form-group" id="dropdownitems">
             <p>Any languages known?</p>
             <select id="dropdown" name="experience" class="form-control" required>
                 <option disabled selected value>Select any languages known?</option>
@@ -41,7 +45,7 @@
             </select>
         </div>
         <!-- Radio button labels of survey -->
-        <div class='form-group'>
+        <div class='form-group' id="radiobuttons">
             <p>How would you say I am doing so far?</p>
             <input type="radio" id="Great" name="radio" class="form-control" value="great">
             <label for="Great">Great</label><br>
@@ -51,7 +55,7 @@
             <label for="CanImprove">Can Improve</label><br>
         </div>
         <!-- Checkboxes of survey -->
-        <div class="form-group">
+        <div class="form-group" id="checkboxes">
             <p>What course would you suggest next?</p>
             <label for="JavaScriptAlgorithms"><input id="JavaScriptAlgorithms" type="checkbox" name="courses" value="JavaScriptAlgorithms" > JavaScript Algorithms</label><br>
             <label for="FrontEndDevelopmentLibraries"><input id="FrontEndDevelopmentLibraries" type="checkbox" name="courses" value="FrontEndDevelopmentLibraries" > Front End Development Libraries</label><br>

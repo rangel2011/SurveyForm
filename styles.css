@@ -1,4 +1,41 @@
 body {
     font-size: 1em;
     text-align: center;
+    background-color: #444444;
+    color: #0A0708;
+}
+
+#title {
+    background-color: #747474;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#description {
+    background-color: #747474;
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+#survey-form {
+    display: block;
+    border: 10px solid #0A0708;
+}
+
+/* this controls the entire group, so use this to make all changes */
+
+.form-group{
+    background-color: #b1b1b1;
+    width: 100%;
+}
+
+/* this controls all of the input types for the form */
+
+input, select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 10px solid #747474;
+    border-radius: 50px;
 }
