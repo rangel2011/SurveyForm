@@ -6,15 +6,16 @@ body {
 }
 
 #title {
-    background-color: #747474;
+    background-color: white;
     margin: 0px 0px 0px 0px;
-
+    border: 10px solid #747474;
 }
 
 #description {
-    background-color: #747474;
+    background-color: white;
     font-size: 18px;
     margin: 0px 0px 20px 0px;
+    border: 10px solid #747474;
 }
 
 #survey-form {
@@ -54,4 +55,23 @@ input, select {
 
 #dropdownitems  {
     font-size: 28px;
+}
+
+#radiobuttons {
+    font-size: 18px;
+}
+
+#checkboxes {
+    font-size: 18px;
+}
+
+#textarea {
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+
+}
+
+#submit {
+    width: auto;
 }
