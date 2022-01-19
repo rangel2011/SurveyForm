@@ -39,3 +39,19 @@ input, select {
     border: 10px solid #747474;
     border-radius: 50px;
 }
+
+#name-label {
+    font-size: 28px;
+}
+
+#email-label  {
+    font-size: 28px;
+}
+
+#number-label  {
+    font-size: 28px;
+}
+
+#dropdownitems  {
+    font-size: 28px;
+}

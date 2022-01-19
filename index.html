@@ -18,6 +18,7 @@
         <div class="form-group">
             <label id="name-label" for="name">Name</label>
             <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+            <br>
         </div>
         <!-- Email label of the survey -->
         <div class="form-group">
@@ -30,8 +31,8 @@
             <input type="number" name="Years Coding" id="number" class="form-control" placeholder="Years Coding" min="0" max="99" required>
         </div>
         <!-- Dropdown label of the survey  -->
-        <div class="form-group" id="dropdownitems">
-            <p>Any languages known?</p>
+        <div class="form-group">
+            <label id="dropdownitems" for="dropdownitems">Any Languages Known?</label>
             <select id="dropdown" name="experience" class="form-control" required>
                 <option disabled selected value>Select any languages known?</option>
                 <option value="HTML">HTML</option>
@@ -44,26 +45,30 @@
                 <option value="None">None. But that is okay, I still appreciate you!</option>
             </select>
         </div>
+        <br>
         <!-- Radio button labels of survey -->
-        <div class='form-group' id="radiobuttons">
-            <p>How would you say I am doing so far?</p>
+        <div class='form-group'>
+            <label id="radiobuttons" for="radiobuttons">How would you say I am doing so far?</label>
             <input type="radio" id="Great" name="radio" class="form-control" value="great">
             <label for="Great">Great</label><br>
             <input type="radio" id="Okay" name="radio" class="form-control" value="okay">
             <label for="Okay">Okay</label><br>
             <input type="radio" id="CanImprove" name="radio" class="form-control" value="CanImprove">
             <label for="CanImprove">Can Improve</label><br>
+            <br>
         </div>
         <!-- Checkboxes of survey -->
         <div class="form-group" id="checkboxes">
-            <p>What course would you suggest next?</p>
+            <label id="checkboxes" for="checkboxes">What course would you suggest next?</label>
             <label for="JavaScriptAlgorithms"><input id="JavaScriptAlgorithms" type="checkbox" name="courses" value="JavaScriptAlgorithms" > JavaScript Algorithms</label><br>
             <label for="FrontEndDevelopmentLibraries"><input id="FrontEndDevelopmentLibraries" type="checkbox" name="courses" value="FrontEndDevelopmentLibraries" > Front End Development Libraries</label><br>
             <label for="DataVisualizationCertification"><input id="DataVisualizationCertification" type="checkbox" name="courses" value="DataVisualizationCertification"> Data Visualization Certification </label><br>
             <label for="BackEndDevelopment"><input id="BackEndDevelopment" type="checkbox" name="courses" value="BackEndDevelopment">Back End Development </label><br>
         </div>
+        <br>
         <!-- Text Area for comments -->
         <div class="form-group">
+            <label id="textarea" for="textarea">Any further suggestions for improvement?</label>
             <p>Any further suggestions for improvement?</p>
             <textarea placeholder="Enter your comments here..."> </textarea>
         </div>
